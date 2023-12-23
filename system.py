@@ -71,6 +71,7 @@ def Home():
 			print("Please wait....")
 			print("\nShowing Home!!")
 			homeMenu()
+			break
 
 			
 		elif homeOption_input == "2":
@@ -93,6 +94,7 @@ def rps():
 
         if players_choice == 5:
             print("Thanks for playing")
+            Home()
             break
 
 
@@ -156,6 +158,7 @@ def budget():
 				goods.clear()
 			elif option == "5":
 				print("Exiting please wait......")
+				Home()
 				break
 
 	myOption()
